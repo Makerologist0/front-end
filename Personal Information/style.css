@@ -1,0 +1,45 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    color: midnightblue;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 20px;
+    color: steelblue;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: dimgray;
+}
+
+li {
+    font-size: 16px;
+    margin-top: 10px;
+    list-style-type: square;
+    color: steelblue;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
