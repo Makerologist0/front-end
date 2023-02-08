@@ -1,0 +1,30 @@
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: green;
+    text-align: center;
+    border-color: rgb(217, 228, 238);
+}
+
+p{
+    font-size: 22px;
+    color: rgb(31, 31, 31);
+    text-align: center;
+  
+    
+}
+
+a{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    
+}
+
+img{
+   
+    display: block;
+    margin: auto;
+    border-radius: 1%;
+}
