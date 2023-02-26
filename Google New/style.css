@@ -1,0 +1,228 @@
+
+/* navbar start */
+#kullanicifoto{
+  border-radius: 50%;
+  border:5px #414141;
+  height: 36px;
+  float: right;
+  padding: 0 0 0 5px;
+}
+
+.header {
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 30px;
+  margin-right: 30px;
+  overflow: hidden;
+  
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 0 13px 0 6px;
+  padding: 5px 5px;
+  text-decoration: none;
+  float: right;
+}
+
+.navbar{
+  justify-content: space-between;
+  margin-top: -15px;
+
+}
+/* navbar end */
+
+
+/* logo start */
+
+.container {
+  text-align: center;
+  margin: 60px 100px 50px 100px;
+  min-height: 92px;
+  padding-bottom: 24px;
+  border-radius: 20px;
+}
+
+/* logo end */
+
+
+/* search area start */
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  border-radius: 35px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 560px;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(58, 58, 58, 0.24), 0 2px 5px 0 rgba(61, 61, 61, 0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.voiceimg {
+  display: flex;
+  align-items: center;
+  
+}
+.voiceimg span{
+display: inline-block;
+position: relative;
+
+  
+
+
+}
+
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(68, 68, 68, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  width: 480px;
+  border: 0px;
+}
+/* search area end */
+
+/* two items */
+.buttons{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.googlesearch {
+  color: white;
+  margin: 11px 4px;
+  padding: 6px 32px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border:3px #000000;
+  border-radius: 20px;
+  background: linear-gradient(rgba(45, 157, 231, 0.679),rgba(3, 56, 136, 0.391));
+}
+
+
+.feelinglucky {
+  color: white;
+  margin: 11px 4px;
+  padding: 6px 32px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border:3px #000000;
+  border-radius: 20px;
+  background: linear-gradient(rgba(112,73,186,0.6785938262939453),rgba(141, 52, 92, 0.391));
+}
+
+/* two items end */
+
+/* footer */
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  list-style: none;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+/* footer end */
